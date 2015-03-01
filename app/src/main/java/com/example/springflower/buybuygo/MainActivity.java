@@ -381,7 +381,7 @@ public class MainActivity extends ActionBarActivity{
 
 
         //private ListView listView;
-        private View v,k;
+        private View v,k,m;
 
         RefreshableView refreshableView;
         String[] items = { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L" };
