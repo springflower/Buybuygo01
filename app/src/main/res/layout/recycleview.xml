@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.21" >
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+            tools:context="com.example.springflower.buybuygo.addNewsActivity"
+            android:id="@+id/a2235"
+            android:layout_weight="100.21">
+
+          <TextView
+                android:id="@+id/info_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#ffffffff"
+                android:text="巧克力"
+              android:layout_marginTop="37dp"
+              android:layout_alignParentTop="true"
+              android:layout_centerHorizontal="true"
+              android:layout_marginBottom="500dp" />
+
+            <TextView
+                android:id="@+id/info_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#ffffffff"
+                android:text="巧克力2"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/textViewshow1"
+                android:layout_alignLeft="@+id/info_text"
+                android:layout_alignStart="@+id/info_text" />
+
+            <TextView
+          android:id="@+id/info_text3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textColor="#ffffffff"
+          android:text="巧克力3"
+          android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/info_text2"
+                android:layout_alignLeft="@+id/info_text"
+                android:layout_alignStart="@+id/info_text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="品名："
+                android:id="@+id/textViewshow1"
+                android:textSize="20dp"
+                android:textColor="#ffffffff"
+                android:layout_alignTop="@+id/info_text"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="40dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="物品敘述："
+                android:id="@+id/textViewshow2"
+                android:textSize="20dp"
+                android:textColor="#ffffffff"
+                android:layout_alignTop="@+id/info_text2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="團主電話："
+                android:id="@+id/textView3"
+                android:textSize="20dp"
+                android:textColor="#ffffffff"
+                android:layout_alignBottom="@+id/info_text3"
+                android:layout_alignRight="@+id/textViewshow2"
+                android:layout_alignEnd="@+id/textViewshow2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="訂購品項："
+                android:id="@+id/textView4"
+                android:textSize="20dp"
+                android:textColor="#ffffffff"
+                android:layout_above="@+id/textView06"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="六連"
+                android:id="@+id/textView5"
+                android:textSize="20dp"
+                android:textColor="#ffffffff"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/info_text3"
+                android:layout_alignLeft="@+id/info_text3"
+                android:layout_alignStart="@+id/info_text3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="五連"
+                android:id="@+id/textView06"
+                android:textSize="20dp"
+                android:textColor="#ffffffff"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/textView5"
+                android:layout_alignLeft="@+id/textView5"
+                android:layout_alignStart="@+id/textView5"
+                android:layout_marginBottom="500dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/textView8"
+                android:textSize="20dp"
+                android:textColor="#ffffffff"
+                android:layout_alignTop="@+id/textView06"
+                android:layout_alignLeft="@+id/textView06"
+                android:layout_alignStart="@+id/textView06"
+                android:layout_marginTop="48dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:id="@+id/textView9"
+                android:textSize="20dp"
+                android:textColor="#ffffffff"
+                android:layout_above="@+id/textView06"
+                android:layout_toRightOf="@+id/info_text3"
+                android:layout_toEndOf="@+id/info_text3"
+                android:layout_marginLeft="43dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:id="@+id/textView10"
+                android:textSize="20dp"
+                android:textColor="#ffffffff"
+                android:layout_alignBottom="@+id/textView06"
+                android:layout_alignLeft="@+id/textView9"
+                android:layout_alignStart="@+id/textView9" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:id="@+id/map2"
+        tools:context=".detailActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_weight="0.11" />
+
+</LinearLayout>
